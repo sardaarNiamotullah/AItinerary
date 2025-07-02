@@ -1,10 +1,27 @@
 ## The project is currently LIVE at [travel-aitinerary.vercel.app](https://travel-aitinerary.vercel.app/)!
 
-## [CLICK HERE]() to see the video demo of the project
+## [CLICK HERE](https://youtu.be/QWFeunya20k) to see the video demo of the project
+
 
 ### Go through the README.md of [backend](https://github.com/sardaarNiamotullah/travel_itinerary-backend) to set the backend up in your local machine
 
+**Don not forget to add this line to your seetings.py**
+```bash
+ALLOWED_HOSTS = [
+    "travel-itinerary-backend-6j4k.onrender.com",
+    "localhost",  # This will cover both localhost:8000 and localhost:5173
+    "127.0.0.1",  # Also good to add the loopback IP for local development
+]
+```
+
+
 ### Go through the README.md of [frontend](https://github.com/sardaarNiamotullah/travel_itinerary-frontend) to set the backend up in your local machine
+
+**Don't forget to set the baseURL to localhost in your local machine**
+   ```bash
+   // src/lib/axios.ts
+   baseURL: "http://localhost:8000/api",
+   ```
 
 ### To see the whole project github repo [CLICK HERE](https://github.com/sardaarNiamotullah/AItinerary)
 
